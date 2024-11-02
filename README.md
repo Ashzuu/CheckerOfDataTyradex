@@ -24,10 +24,23 @@ CheckerOfDataTyradex is a project designed to search for errors in the Tyradex A
    ```
 
 #### Usage:
-Run the tests using Robot Framework:
-```bash
-robot Scripts/verifPokemon.robot
-```
+
+Before using the application, **you must add data in the application :**
+
+1. Move in Data/ Folder
+   ```bash
+   cd Data/
+   ```
+
+2. Go back to the base of the project
+   ```bash
+   cd ../
+   ```
+
+3. Run the tests using Robot Framework:
+   ```bash
+   robot Scripts/verifPokemon.robot
+   ```
 
 ### Warning:
 This application is developed in some hours, and is only used for personal usage.

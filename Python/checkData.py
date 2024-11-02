@@ -7,7 +7,7 @@ def GetAllPokemonData()->list:
     Returns:
     pokemonData -- list of pokemon data
     """
-    with open(r'../Data/pokemon.json', 'r', encoding='utf-8') as file:
+    with open(r'Data/pokemon.json', 'r', encoding='utf-8') as file:
         return json.load(file)
 
 
